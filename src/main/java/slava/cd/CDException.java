@@ -8,4 +8,8 @@ public class CDException extends RuntimeException {
 		super(cause);
 	}
 
+	public CDException(String message) {
+		super(message);
+	}
+
 }

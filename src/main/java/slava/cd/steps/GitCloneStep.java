@@ -1,13 +1,11 @@
 package slava.cd.steps;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import slava.cd.command.Command;
 import slava.cd.command.CommandFactory;
 import slava.cd.pipeline.Step;
 
-@Component
 public class GitCloneStep implements Step {
 	
 	private String repo;
